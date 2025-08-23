@@ -76,6 +76,7 @@ export function FlowCanvas() {
           onEdgesChange={onEdgesChange}
           onConnect={onConnect}
           nodeTypes={nodeTypes}
+          proOptions={{ hideAttribution: true }}
           fitView
         >
           <MiniMap />
