@@ -16,6 +16,9 @@ module.exports = {
       boxShadow: {
         soft: "var(--shadow-1)",
       },
+      fontFamily: {
+        mono: ["var(--font-mono)", "monospace"],
+      },
     },
   },
   plugins: [],
